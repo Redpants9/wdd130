@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+    max-width: 960px;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+header{
+    padding: 20px;
+    background-color: #91aec1;
+}
+nav{
+    background-color:#bfd7ea;
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: blue;
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link{
+    color:blue;}
+nav a:visited{
+color:purple;}
+nav a:hover{
+    color:purple;
+    background-color: aqua;  
+}
