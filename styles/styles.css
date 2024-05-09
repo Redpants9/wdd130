@@ -22,6 +22,7 @@ p{
 }
 main{
     max-width: 840px;
+    padding: 1rem;
 }
 aside{
     width: 20rem;
@@ -39,6 +40,7 @@ img aside{
 main img{
     width: 150px;
     height: auto;
+    float:right;
 }
 p{
     padding: 0;
@@ -47,4 +49,27 @@ footer{
     margin-top: 15px;
     border-top: 1px;
     text-align: center;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* Class Selectors */
+
+.box{
+     margin:1rem;
+     border:1px green;
+     padding:1rem;
+     background-color:peachpuff;
+     color:red;
+}
+aside{
+    width:20em;
+    text-align:center;
+}
+aside h2{
+    position:relative;
+    top:50px;
+    left:65px;
 }
