@@ -36,6 +36,7 @@ aside{
 img aside{
     width: 200px;
     height: auto;
+    top: auto;
 }
 main img{
     width: 150px;
@@ -69,7 +70,7 @@ aside{
     text-align:center;
 }
 aside h2{
-    position:relative;
-    top:50px;
-    left:65px;
+    position:absolute;
+    top:47px;
+    left:150px;
 }
