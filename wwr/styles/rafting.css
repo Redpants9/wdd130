@@ -1,0 +1,30 @@
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1{
+    position:absolute;
+    text-align: center;
+    display: inline;}
+.hero article{
+    position:absolute;
+    background-color: aliceblue;
+    margin: 1rem;
+    padding: 1rem;}
+.banner img{
+    width: 300px;
+    height: auto;
+    float: right;
+    display:block;}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Courier New', Courier, monospace;}
+body{
+    font-family: sans-serif;}
+img{
+    display:block;
+}
+footer{
+    display:inline;
+}
+
