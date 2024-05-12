@@ -2,23 +2,31 @@
     display: block;
     width: 100%;
     height: auto;
-}
+    float: right;}
+.hero div{
+    margin:10px;
+    padding:20px;}
 .hero h1{
     position:absolute;
     text-align: center;
-    display: inline;}
+    display:block;
+    top:170px;
+    left: 40%;
+    color:#91aec1;}
 .hero article{
     position:absolute;
     background-color: aliceblue;
     margin: 1rem;
-    padding: 1rem;}
-.banner img{
+    padding: 1rem;
     width: 300px;
-    height: auto;
-    float: right;
-    display:block;}
+    border: 15px;
+    top:300px;}
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Courier New', Courier, monospace;}
+    font-family: 'Courier New', Courier, monospace;
+    color: #bfd7ea;
+    background-color:#0a8754;
+    padding: 10px;
+    margin:10px;}
 body{
     font-family: sans-serif;}
 img{
