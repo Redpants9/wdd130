@@ -33,6 +33,43 @@ img{
     display:block;
 }
 footer{
-    display:inline;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
 }
-
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.logo{
+    grid-column:1/2;
+}
+nav{
+    display: flex;
+    grid-column:2/3;
+    justify-content:space-around;
+    align-items:center;
+}
+a{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;}
+.adventure{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+.adventure img{
+    width: 300px;
+    height: auto;
+    grid-row:2/3;}
+.adventure h2{
+    display:flex;
+    align-content:center;
+    align-items: center;
+    text-align: center;
+    grid-column:1/6;}
+main{
+    display: grid;
+}
+h2{
+    justify-content:center;
+    text-align: center;
+}
