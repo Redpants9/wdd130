@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desription" content="form">
+    <meta name="author" content="Nate Hansen">
+    <title>Wdd 130  Html form - user poll</title>
+    <link rel="stylesheet" href="poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>Wdd 130 Nate Hansen Html form - user poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Info
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">Email:</label>
+                    <input type="text" name="useremail" id="useremail">
+                </legend>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite internet browser</label>
+                <select name="browser" id="browser">
+                    <option value="Chrome">chrome</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Other">Other</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" name="pet" id="pet">
+                <label for="feedback">List the places you have visited</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Utah, Hawaii, Nebraska, California"></textarea>
+            </fieldset>
+            <button type="submit">Sumbit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>©️2024 html form - user poll activity Nate Hansen</p>
+    </footer>
+</body>
+</html>
