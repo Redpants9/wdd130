@@ -1,0 +1,27 @@
+fieldset{
+    display:grid;
+    padding:10px;
+    margin: 10px;
+    background-color:lightgray;
+}
+textarea{
+    height: 100px;
+}
+/*comment*/
+form{
+    display:grid;
+    grid-template-columns:500px;
+    justify-content:center;
+}
+header{
+    display:flex;
+    justify-content:center;
+}
+footer{
+    display:flex;
+    justify-content:center;
+}
+button{
+    color:white;
+    background-color:blue;
+}
